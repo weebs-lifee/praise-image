@@ -1,0 +1,21 @@
+{
+  "name": "praise-the-image",
+  "version": "1.0.0",
+  "type": "module",
+  "homepage": "https://praiseimage.my.id/",
+  "dependencies": {
+    "@fastify/cors": "^9.0.1",
+    "@fastify/multipart": "^8.3.0",
+    "@fastify/static": "^7.0.4",
+    "@google/generative-ai": "^0.16.0",
+    "axios": "^1.7.3",
+    "dotenv": "^16.4.5",
+    "fastify": "^4.28.1",
+    "fs": "^0.0.1-security",
+    "octokit": "^4.0.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "build": "webpack --config webpack.config.js"
+  }
+}
